@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FUCKYOU</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+		font-family: 'Noto Serif JP', serif;
+		  position: absolute;
+		  background-color: hotpink;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+	}
+.circle{
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: white;
+  text-align:center;
+  line-height: 600px;
+}
+	</style>
+	<script type="text/javascript">
+		 setTimeout(bgm(), 1000);
+		 function aaa() {
+		 // SEとバイブレーションの制御
+        var tada = new Audio('tada.mp3');
+        var kansei = new Audio("歓声と拍手.mp3")
+        tada.play(); 
+        kansei.play();      
+         navigator.vibrate([200, 100, 200, 100, 200, 100, 200]);
+     }
+      
+	</script>
+</head>
+<body background="hotpink" onload="bgm();">
+<a class="circle" onclick="aaa()" style="color: #666666;" style="font-size: 7;"><font size="5">死んでくれると嬉しいな❤</font></a>
+</body>
+</html>
